@@ -1,0 +1,32 @@
+{
+  "name": "slack-bot-relay",
+  "version": "0.1.0",
+  "description": "A slackbot to relay messages between channels",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sallis-GH/Slack-Bot-Relay.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Salamon Rørvik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sallis-GH/Slack-Bot-Relay/issues"
+  },
+  "homepage": "https://github.com/Sallis-GH/Slack-Bot-Relay#readme",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^6.8.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
